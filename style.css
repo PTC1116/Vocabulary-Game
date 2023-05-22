@@ -1,0 +1,347 @@
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* animation */
+.animation-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f1f1;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #ffce00, #0375b4);
+  z-index: -1;
+}
+
+.animation {
+  margin-top: 10vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  width: 100%;
+  height: 0;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #007849;
+}
+
+/* my own setting*/
+.wrapAll {
+  height: 100%;
+  background-color: #007849;
+  background: repeating-linear-gradient(
+    45deg,
+    #199163,
+    #199163 17.5px,
+    #007849 17.5px,
+    #007849 87.5px
+  );
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarItem {
+  display: flex;
+}
+
+.nav-link {
+  display: block;
+  color: whitesmoke;
+}
+
+.nav-link:hover {
+  background-color: whitesmoke;
+}
+
+.wrap,
+.start,
+.intro,
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.heightAuto {
+  height: auto;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.result {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resultTitle,
+.resultSubtitle {
+  text-align: center;
+}
+
+.againBtn {
+  align-self: center;
+  width: 30%;
+  margin: 15% 0 30% 0;
+}
+
+.choiceBtn {
+  width: 30%;
+  margin: 5%;
+}
+
+.hide {
+  display: none;
+}
+
+.visibilityHidden {
+  visibility: hidden;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+  margin: 24px 0 24px 0;
+}
+
+.btn {
+  font-size: 24px;
+}
+
+.result {
+  margin-top: 5%;
+}
+
+h1,
+h2,
+p,
+.btn {
+  font-family: Georgia, serif;
+  color: #262228;
+}
+
+.btn {
+  background-color: #0375b4;
+  color: #d9d9d9;
+  outline: #0375b4 solid 2px;
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  background-color: #ffce00;
+  color: #0375b4;
+}
+
+.card {
+  background-color: #d9d9d9;
+}
+
+.card.start,
+.card.intro {
+  height: 50%;
+  width: 30%;
+}
+.card.content {
+  height: 80%;
+  width: 75%;
+}
+
+.card-body.content-body {
+  padding: 10% 5%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .startBtn {
+    width: 30%;
+  }
+}
+
+.card-title {
+  margin-bottom: 50px;
+}
+
+.green {
+  background: rgb(28, 184, 65);
+}
+
+.red {
+  background: rgb(202, 60, 60);
+}
+
+.wrong {
+  color: rgb(202, 60, 60) !important;
+}
+
+.animalPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
