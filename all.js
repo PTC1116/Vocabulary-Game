@@ -144,13 +144,13 @@ function recordResult() {
 
 function createComment() {
   if (correctAnsCount < totalQuestionCount / 2) {
-    animalPic.setAttribute("src", "funnyHorse.jpg");
+    animalPic.setAttribute("src", "pictures/funnyHorse.jpg");
     comment.textContent = "Try to do better next time!";
   } else if (correctAnsCount <= totalQuestionCount - 1) {
-    animalPic.setAttribute("src", "ReadingCat.jpg");
+    animalPic.setAttribute("src", "pictures/ReadingCat.jpg");
     comment.textContent = "Good Job!";
   } else if (correctAnsCount === totalQuestionCount) {
-    animalPic.setAttribute("src", "wiseDog.jpg");
+    animalPic.setAttribute("src", "pictures/wiseDog.jpg");
     comment.textContent = "Fantastic!";
   }
 }

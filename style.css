@@ -284,6 +284,10 @@ p,
   color: #262228;
 }
 
+p {
+  line-height: 1.2;
+}
+
 .btn {
   background-color: #0375b4;
   color: #d9d9d9;
