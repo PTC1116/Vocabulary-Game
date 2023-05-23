@@ -13,60 +13,54 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapAll">
-      <section class="animation-wrapper">
-        <section class="animation">
-          <div class="pic">
-            <img src="pictures/words.jpg" alt="vocab image" />
-          </div>
-        </section>
-        <div class="slider"></div>
+    <section class="animation-wrapper">
+      <section class="animation">
+        <div class="pic">
+          <img src="pictures/words.jpg" alt="vocab image" />
+        </div>
       </section>
-      <div class="wrap">
-        <div class="card text-center start">
-          <div class="card-body">
-            <h1 class="card-title">Vocabulary Training</h1>
-            <button type="button" class="btn startBtn" disabled>START</button>
-          </div>
+      <div class="slider"></div>
+    </section>
+    <div class="wrap">
+      <div class="card text-center start">
+        <div class="card-body">
+          <h1 class="card-title">Vocabulary Training</h1>
+          <button type="button" class="btn startBtn" disabled>START</button>
         </div>
-
-        <div class="card text-center intro hide">
-          <div class="card-body">
-            <h2>Introduction</h2>
-            <p>Choose the correct vocabulary word to complete the sentence</p>
-            <button class="btn okBtn">OK</button>
-          </div>
+      </div>
+      <div class="card text-center intro hide">
+        <div class="card-body">
+          <h2>Introduction</h2>
+          <p>Choose the correct vocabulary word to complete the sentence</p>
+          <button class="btn okBtn">OK</button>
         </div>
-        <div class="card content hide">
-          <div class="card-body content-body">
-            <div class="question-wrapper">
-              <h2 class="question">question1</h2>
-            </div>
-
-            <div class="choices">
-              <button type="button" class="btn choiceBtn">answer1</button>
-              <button type="button" class="btn choiceBtn">answer2</button>
-              <button type="button" class="btn choiceBtn">answer3</button>
-              <button type="button" class="btn choiceBtn">answer4</button>
-            </div>
-            <div class="next">
-              <button type="button" class="btn nextBtn visibilityHidden">
-                NEXT
-              </button>
-            </div>
+      </div>
+      <div class="card content hide">
+        <div class="card-body content-body">
+          <div class="question-wrapper">
+            <h2 class="question">question1</h2>
           </div>
+          <div class="choices">
+            <button type="button" class="btn choiceBtn">answer1</button>
+            <button type="button" class="btn choiceBtn">answer2</button>
+            <button type="button" class="btn choiceBtn">answer3</button>
+            <button type="button" class="btn choiceBtn">answer4</button>
+          </div>
+          <button type="button" class="btn nextBtn visibilityHidden">
+            NEXT
+          </button>
         </div>
-        <div class="card result hide">
-          <div class="card-body">
-            <h2 class="resultTitle">Result</h2>
-            <h2 class="resultSubtitle"></h2>
-            <hr />
-            <img class="animalPic" alt="animal image" />
-            <h2 class="comment"></h2>
-            <hr />
-            <span class="resultDetails"></span>
-            <button type="button" class="btn againBtn">Try Again</button>
-          </div>
+      </div>
+      <div class="card result hide">
+        <div class="card-body result-body">
+          <h2 class="resultTitle">Result</h2>
+          <h2 class="resultSubtitle"></h2>
+          <hr />
+          <img class="animalPic" alt="animal image" />
+          <h2 class="comment"></h2>
+          <hr />
+          <span class="resultDetails"></span>
+          <button type="button" class="btn againBtn">Try Again</button>
         </div>
       </div>
     </div>
