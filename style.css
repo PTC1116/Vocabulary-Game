@@ -276,13 +276,11 @@ p {
 
 .start,
 .intro {
-  height: 50%;
   width: 30%;
 }
 @media (max-width: 820px) {
   .start,
   .intro {
-    height: 30%;
     width: 75%;
   }
 }
